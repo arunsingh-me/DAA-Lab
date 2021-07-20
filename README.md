@@ -1,54 +1,37 @@
-<p align="center">
-  <a href="https://github.com/iamsahebgiri/add-readme">
-    <img alt="DAA-Lab" height="80" src="https://raw.githubusercontent.com/iamsahebgiri/add-readme/main/static/add-readme.png">
-  </a>
-</p>
-<h1 align="center">DAA-Lab</h1>
+# DAA Lab Qs
 
-<div align="center">
-Another awesome project to make the world a better place.
-</div>
+## **Week 0:**
 
-<br />
+**Question-1:** Given an array of nonnegative integers, design a linear algorithm and implement it using a program to find whether a given key element is present in the array or not. Also, find the total number of comparisons for each input case. (Time Complexity = $O(n)$, where n is the size of input).
 
-<div align="center">
-  <a href="https://standardjs.com">
-    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"
-      alt="Standard" />
-  </a>
-  
-  <img src="https://img.shields.io/github/languages/code-size/arunsingh-me/DAA-Lab?style=flat-square" alt="Code size" />
+For this problem you are free to choose programming language, no. of test cases, input and output format.
 
-  <img src="https://img.shields.io/github/license/arunsingh-me/DAA-Lab?style=flat-square" alt="License" />
+If you feel ambitious about problem solving, keep the input inside a text file, read that using a program to generate the output in another file.
 
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/arunsingh-me/DAA-Lab?style=flat-square">
+**Hint -** You can take the first line as n, no. of test cases and after that n lines containing various numbers of elements where each line represents an array.
 
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/arunsingh-me/DAA-Lab?style=social">
-</div>
+## Week 1:
 
-## ⚡️ Introduction
+**Question-2:** Given an already sorted array of positive integers, design an algorithm and implement it using a program to find whether given key element is present in the array or not. Also, find the total number of comparisons for each input case. (Time Complexity = $O(logn)$, where $n$ is the size of input).
 
-## 🎯 Features
+**Question-3:** Given an already sorted array of positive integers, design an algorithm and implement it using a program to find whether a given key element is present in the sorted array or not. For an array $arr[n]$, search at the indexes $arr[0], arr[2], arr[4],.. , arr[2^k]$ and so on. Once the interval ($arr[2^k] < key < arr[2^{k+1}]$) is found, perform a linear search operation from the index $2^k$ to find the element key. (Complexity < $O(logn)$, where n is the number of elements need to be scanned for searching): **Jump Search** 
 
-## ⚙️ Installation
+**Input format:**
 
-## 📚️ Roadmap
+For each test case, there will be three input lines.
 
-## ❤️ Acknowledgements
+The first line contains number of test cases, $T$.
 
-## ‎‍💻 Author
+First line contains $n$ (the size of the array).
 
-- [@arunsingh-me](https://github.com/arunsingh-me)
+Second line contains $n$ space separated integers describing the array.
 
-## ⭐️ Contribute
+Third line contains the key element that need to be searched in the array.
 
-If you want to say thank you and/or support the active development of DAA-Lab:
+**Output format:**
 
-1. Add a GitHub Star to the project.
-2. Tweet about the project on your Twitter.
-3. Write a review or tutorial on Medium, Dev.to or personal blog.
-4. Support the project by donating a cup of coffee.
+The output will have $T$ number of lines.
 
-## 🧾 License
+For each test case, output will be "**Present**" ****if the key element is found in the array, otherwise "**Not Present**".
 
-MIT License Copyright (c) 2021 [Arun Singh](https://github.com/arunsingh-me).
+Also for each test case output the number of comparisons required to reach the key.
