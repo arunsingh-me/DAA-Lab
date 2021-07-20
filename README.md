@@ -28,56 +28,13 @@ Another awesome project to make the world a better place.
 
 ## ⚡️ Introduction
 
-Introduce your project, what problem you are trying to solve, what makes it unique, sell it to me.
-
-Add screenshot or gif.
-
 ## 🎯 Features
-
-- Robust routing
-- Serve static files
-- Extreme performance
-- Low memory footprint
-- API endpoints
-- And much more, explore DAA-Lab
 
 ## ⚙️ Installation
 
-Make sure you have [Node.js](https://nodejs.org/en/download/) installed.
-Run this followed commands:
-
-```bash
-# Install dependencies (only the first time)
-npm install
-
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
-```
-
-## 🌱 Third Party Libraries
-
-- [vercel/next.js](https://github.com/vercel/next.js)
-- [facebook/react](https://github.com/facebook/react)
-- [facebook/jest](https://github.com/facebook/jest)
-- [expressjs/express](https://github.com/expressjs/express)
-- [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui)
-- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)
-
 ## 📚️ Roadmap
 
-- [ ] Define the endpoints, structure and parameters for the API.
-- [ ] Create the new branding and visual toolkit within Figma.
-- [ ] Update On-Demand Cloud dashboard and add usage-based pricing.
-
-
 ## ❤️ Acknowledgements
-
-- [fiber](https://github.com/gofiber/fiber)
-- [leerob](https://github.com/leerob/leerob.io)
-- [flaviocopes](https://github.com/flaviocopes)
 
 ## ‎‍💻 Author
 
@@ -94,4 +51,4 @@ If you want to say thank you and/or support the active development of DAA-Lab:
 
 ## 🧾 License
 
-MIT License Copyright (c) 2021 [John Doe](https://github.com/arunsingh-me).
+MIT License Copyright (c) 2021 [Arun Singh](https://github.com/arunsingh-me).
