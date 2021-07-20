@@ -12,10 +12,10 @@ struct Node *head;
 void insert(int x)
 {
   struct Node *temp = (struct Node *)malloc(sizeof(struct Node));
-  temp->data = x;
-  temp->next = NULL;
+  temp -> data = x;
+  temp -> next = NULL;
   if (head != NULL)
-    temp->next = head;
+    temp -> next = head;
   head = temp;
 }
 
@@ -25,8 +25,8 @@ void print()
   printf("List is: ");
   while (temp != NULL)
   {
-    printf("%d ", temp->data);
-    temp = temp->next;
+    printf("%d ", temp -> data);
+    temp = temp -> next;
   }
   printf("\n");
 }
