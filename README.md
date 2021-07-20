@@ -12,9 +12,9 @@ If you feel ambitious about problem solving, keep the input inside a text file, 
 
 ## Week 1:
 
-**Question-2:** Given an already sorted array of positive integers, design an algorithm and implement it using a program to find whether given key element is present in the array or not. Also, find the total number of comparisons for each input case. (Time Complexity = $O(logn)$, where $n$ is the size of input).
+**Question-2:** Given an already sorted array of positive integers, design an algorithm and implement it using a program to find whether given key element is present in the array or not. Also, find the total number of comparisons for each input case. (Time Complexity = $$O(logn)$$, where $$n$$ is the size of input).
 
-**Question-3:** Given an already sorted array of positive integers, design an algorithm and implement it using a program to find whether a given key element is present in the sorted array or not. For an array $arr[n]$, search at the indexes $arr[0], arr[2], arr[4],.. , arr[2^k]$ and so on. Once the interval ($arr[2^k] < key < arr[2^{k+1}]$) is found, perform a linear search operation from the index $2^k$ to find the element key. (Complexity < $O(logn)$, where n is the number of elements need to be scanned for searching): **Jump Search** 
+**Question-3:** Given an already sorted array of positive integers, design an algorithm and implement it using a program to find whether a given key element is present in the sorted array or not. For an array $$arr[n]$$, search at the indexes $$arr[0], arr[2], arr[4],.. , arr[2^k]$$ and so on. Once the interval ($arr[2^k] < key < arr[2^{k+1}]$$) is found, perform a linear search operation from the index $2^k$ to find the element key. (Complexity < $O(logn)$, where n is the number of elements need to be scanned for searching): **Jump Search** 
 
 **Input format:**
 
