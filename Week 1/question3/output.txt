@@ -1,0 +1,3 @@
+Present 5
+Not present 7
+Present 6
